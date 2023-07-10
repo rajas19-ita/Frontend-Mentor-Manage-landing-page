@@ -102,7 +102,7 @@
     justify-self: center;
   }
   .main-nav {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.95);
     z-index: 999;
     position: absolute;
     top: -2rem;
@@ -144,6 +144,10 @@
   }
   .text {
     font-size: 1.48rem;
+  }
+  .footer-link:link,
+  .footer-link:visited {
+    font-size: 1.35rem;
   }
 }
 
