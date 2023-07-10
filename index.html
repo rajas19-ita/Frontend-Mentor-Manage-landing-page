@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Manage makes it simple for software teams to plan day-to-day tasks
+      while keeping the larger team goals in view."
+    />
+
+    <link rel="icon" href="images/favicon-32x32.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script defer src="js/script.js"></script>
+    <title>Frontend Mentor | Manage landing page</title>
+  </head>
+  <body>
+    <header class="header margin-bottom-md">
+      <div class="header-container">
+        <a href="#">
+          <img src="images/logo.svg" alt="Manage logo" class="logo" />
+        </a>
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li><a class="main-nav-link" href="#">Pricing</a></li>
+            <li><a class="main-nav-link" href="#">Product</a></li>
+            <li><a class="main-nav-link" href="#">About Us</a></li>
+            <li><a class="main-nav-link" href="#">Careers</a></li>
+            <li><a class="main-nav-link" href="#">Community</a></li>
+          </ul>
+        </nav>
+        <a href="#cta" class="btn btn-header">Get Started</a>
+        <button class="btn-mobile-nav">
+          <ion-icon
+            class="icon-mobile-nav"
+            name="menu-outline"
+            aria-label="menu-open"
+          ></ion-icon>
+          <ion-icon
+            class="icon-mobile-nav"
+            name="close-outline"
+            aria-label="menu-close"
+          ></ion-icon>
+        </button>
+      </div>
+    </header>
+    <main>
+      <section
+        class="section-hero container grid grid-2-cols align-center margin-bottom-lg"
+      >
+        <div class="hero-text-box">
+          <h1 class="heading-primary margin-bottom-sm">
+            Bring everyone together to build better products.
+          </h1>
+          <p class="hero-description-box text margin-bottom-sm">
+            Manage makes it simple for software teams to plan day-to-day tasks
+            while keeping the larger team goals in view.
+          </p>
+          <a href="#cta" class="btn btn-nav">Get Started</a>
+        </div>
+        <div class="hero-img-box">
+          <img
+            src="images/illustration-intro.svg"
+            alt="stats and graphs"
+            class="hero-img"
+          />
+        </div>
+      </section>
+      <section class="container grid grid-2-cols margin-bottom-lg">
+        <div class="feature-heading">
+          <h2 class="heading-secondary margin-bottom-sm">
+            What’s different about Manage?
+          </h2>
+          <p class="text feature-description">
+            Manage provides all the functionality your team needs, without the
+            complexity. Our software is tailor-made for modern digital product
+            teams.
+          </p>
+        </div>
+        <ul class="features-list">
+          <li class="margin-bottom-md">
+            <div class="feature">
+              <h3 class="heading-tertiary">Track company-wide progress</h3>
+              <p class="text">
+                See how your day-to-day tasks fit into the wider vision. Go from
+                tracking progress at the milestone level all the way done to the
+                smallest of details. Never lose sight of the bigger picture
+                again.
+              </p>
+            </div>
+          </li>
+          <li class="margin-bottom-md">
+            <div class="feature">
+              <h3 class="heading-tertiary">Advanced built-in reports</h3>
+              <p class="text">
+                Set internal delivery estimates and track progress toward
+                company goals. Our customisable dashboard helps you build out
+                the reports you need to keep key stakeholders informed.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div class="feature">
+              <h3 class="heading-tertiary">Everything you need in one place</h3>
+              <p class="text">
+                Stop jumping from one service to another to communicate, store
+                files, track tasks and share documents. Manage offers an
+                all-in-one team productivity solution.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="section-testimonial margin-bottom-lg">
+        <h2 class="heading-secondary testimonial-heading">What they've said</h2>
+        <ul class="testimonial-list">
+          <li>
+            <figure class="testimonial-box first-fig">
+              <img
+                src="images/avatar-anisha.png"
+                alt="photo of customer anisha li"
+                class="avatar"
+              />
+              <figcaption class="heading-tertiary margin-bottom-xs">
+                Anisha Li
+              </figcaption>
+              <blockquote>
+                <p class="text">
+                  “Manage has supercharged our team’s workflow. The ability to
+                  maintain visibility on larger milestones at all times keeps
+                  everyone motivated.”
+                </p>
+              </blockquote>
+            </figure>
+          </li>
+          <li>
+            <figure class="testimonial-box" id="testimonial-2">
+              <img
+                src="images/avatar-ali.png"
+                alt="photo of customer Ali Bravo"
+                class="avatar"
+              />
+              <figcaption class="heading-tertiary margin-bottom-xs">
+                Ali Bravo
+              </figcaption>
+              <blockquote>
+                <p class="text">
+                  “We have been able to cancel so many other subscriptions since
+                  using Manage. There is no more cross-channel confusion and
+                  everyone is much more focused.”
+                </p>
+              </blockquote>
+            </figure>
+          </li>
+          <li>
+            <figure class="testimonial-box" id="testimonial-3">
+              <img
+                src="images/avatar-richard.png"
+                alt="photo of customer Richard Watts"
+                class="avatar"
+              />
+              <figcaption class="heading-tertiary margin-bottom-xs">
+                Richard Watts
+              </figcaption>
+              <blockquote>
+                <p class="text">
+                  “Manage allows us to provide structure and process. It keeps
+                  us organized and focused. I can’t stop recommending them to
+                  everyone I talk to!”
+                </p>
+              </blockquote>
+            </figure>
+          </li>
+          <li>
+            <figure class="testimonial-box" id="testimonial-4">
+              <img
+                src="images/avatar-shanai.png"
+                alt="photo of customer Shanai Gough"
+                class="avatar"
+              />
+              <figcaption class="heading-tertiary margin-bottom-xs">
+                Shanai Gough
+              </figcaption>
+              <blockquote>
+                <p class="text">
+                  “Their software allows us to track, manage and collaborate on
+                  our projects from anywhere. It keeps the whole team in-sync
+                  without being intrusive.”
+                </p>
+              </blockquote>
+            </figure>
+          </li>
+        </ul>
+        <div class="pagination-dots">
+          <button class="dots" aria-label="Go to Slide 1">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="ionicon"
+              viewBox="0 0 512 512"
+            >
+              <circle
+                cx="256"
+                cy="256"
+                r="192"
+                fill="hsl(12, 88%, 59%)"
+                stroke="hsl(12, 88%, 59%)"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="50"
+              />
+            </svg>
+          </button>
+          <button class="dots" aria-label="Go to Slide 2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="ionicon"
+              viewBox="0 0 512 512"
+            >
+              <circle
+                cx="256"
+                cy="256"
+                r="192"
+                fill="white"
+                stroke="hsl(12, 88%, 59%)"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="50"
+              />
+            </svg>
+          </button>
+          <button class="dots" aria-label="Go to Slide 3">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="ionicon"
+              viewBox="0 0 512 512"
+            >
+              <circle
+                cx="256"
+                cy="256"
+                r="192"
+                fill="white"
+                stroke="hsl(12, 88%, 59%)"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="50"
+              />
+            </svg>
+          </button>
+          <button class="dots" aria-label="Go to Slide 4">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="ionicon"
+              viewBox="0 0 512 512"
+            >
+              <circle
+                cx="256"
+                cy="256"
+                r="192"
+                fill="white"
+                stroke="hsl(12, 88%, 59%)"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="50"
+              />
+            </svg>
+          </button>
+        </div>
+        <div class="center-container margin-bottom-xs">
+          <a href="#cta" class="btn">Get Started</a>
+        </div>
+      </section>
+
+      <section class="section-cta" id="cta">
+        <div class="container grid grid-2-cols">
+          <h2 class="cta-heading">Simplify how your team works today.</h2>
+          <a href="#cta" class="btn btn-inverse btn-cta">Get Started</a>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container grid-footer">
+        <div class="logo-col">
+          <a href="#" class="footer-logo" aria-label="Company logo">
+            <img
+              src="images/footer-logo.svg"
+              class="footer-img"
+              alt="Company logo"
+            />
+          </a>
+          <ul class="social-links">
+            <li>
+              <a href="#" class="footer-link" aria-label="facebook logo">
+                <ion-icon name="logo-facebook" class="social-icons"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer-link" aria-label="youtube logo">
+                <ion-icon name="logo-youtube" class="social-icons"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer-link" aria-label="twitter logo">
+                <ion-icon name="logo-twitter" class="social-icons"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer-link" aria-label="pinterest logo">
+                <ion-icon name="logo-pinterest" class="social-icons"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer-link" aria-label="instagram logo">
+                <ion-icon name="logo-instagram" class="social-icons"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <nav class="nav-col">
+          <ul class="footer-nav">
+            <li>
+              <a href="#" class="footer-link">Home</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Pricing</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Products</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">About Us</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <ul class="footer-nav">
+            <li>
+              <a href="#" class="footer-link">Careers</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Community</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Privacy Policy</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="input-col">
+          <form class="footer-form" id="form">
+            <label for="email" class="visually-hidden">Email</label>
+            <input
+              id="email"
+              type="email"
+              placeholder="Updates in your box..."
+              name="email"
+              required
+            />
+            <button class="btn btn-form">Go</button>
+            <div id="errorMessage" class="error-message">
+              Please insert a valid email
+            </div>
+          </form>
+        </div>
+        <p class="copyright">Copyright 2020. All Rights Reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>
