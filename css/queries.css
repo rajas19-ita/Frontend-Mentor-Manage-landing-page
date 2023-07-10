@@ -312,7 +312,7 @@
     font-size: 3rem;
   }
   .logo {
-    height: 2rem;
+    height: 2.2rem;
   }
   .heading-secondary {
     font-size: 2.2rem;
@@ -332,6 +332,7 @@
   }
   .cta-heading {
     font-size: 3.2rem;
+    max-width: 28rem;
   }
 
   .footer-link:link,
