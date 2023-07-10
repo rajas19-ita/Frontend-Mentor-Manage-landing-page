@@ -147,7 +147,10 @@
   }
   .footer-link:link,
   .footer-link:visited {
-    font-size: 1.35rem;
+    font-size: 1.37rem;
+  }
+  .heading-tertiary {
+    font-size: 1.52rem;
   }
 }
 
