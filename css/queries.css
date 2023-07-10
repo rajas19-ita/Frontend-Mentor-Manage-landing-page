@@ -142,6 +142,9 @@
     font-size: 2.2rem;
     font-weight: 700;
   }
+  .text {
+    font-size: 1.48rem;
+  }
 }
 
 /**************************/
@@ -243,9 +246,6 @@
   .error-message {
     font-size: 1.2rem;
   }
-  .text {
-    font-size: 1.48rem;
-  }
 }
 
 /**************************/
@@ -293,6 +293,9 @@
     z-index: -1;
     border-radius: 2rem 0 0 2rem;
     box-shadow: 5rem 0 hsl(12, 88%, 95%);
+  }
+  .hero-description-box {
+    max-width: 36rem;
   }
 }
 
