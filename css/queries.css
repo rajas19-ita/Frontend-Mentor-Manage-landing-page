@@ -308,4 +308,53 @@
   .feature {
     column-gap: 1.2rem;
   }
+  .heading-primary {
+    font-size: 3rem;
+  }
+  .logo {
+    height: 2rem;
+  }
+  .heading-secondary {
+    font-size: 2.2rem;
+  }
+  .text {
+    font-size: 1.32rem;
+  }
+  .feature::before {
+    padding: 0 1.8rem;
+    height: 4.1rem;
+  }
+  .feature::after {
+    height: 4.1rem;
+  }
+  .testimonial-box {
+    padding: 6rem 2rem 4rem;
+  }
+  .cta-heading {
+    font-size: 3.2rem;
+  }
+
+  .footer-link:link,
+  .footer-link:visited {
+    font-size: 1.35rem;
+  }
+
+  .footer-form input {
+    width: 60vw;
+  }
+  .footer-img {
+    height: 2.2rem;
+  }
+  .social-icons {
+    height: 2.8rem;
+    width: 2.8rem;
+  }
+  .copyright {
+    font-size: 1.1rem;
+  }
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
 }
